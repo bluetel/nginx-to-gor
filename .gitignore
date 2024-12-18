@@ -1,0 +1,3 @@
+# Python default git ignore
+.mypy_cache/
+logs/*

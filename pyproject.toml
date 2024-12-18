@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nginx-to-gor"
+version = "0.1.0"
+description = "Small CLI utility for converting Nginx File to The Go Replay file format for load testing purposes."
+authors = ["Ryan Lee <rol@bluetel.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.67.1"
+click = "^8.1.7"
+pyre2 = "^0.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
