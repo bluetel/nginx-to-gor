@@ -13,6 +13,18 @@ To install the dependencies, run the following command:
 poetry install
 ```
 
+> If the installation of `pyre2` fails, ensure [`re2`](https://github.com/google/re2) package is installed on your system.
+>
+> Debian/Ubuntu
+> ```bash
+> apt update && apt install re2
+> ```
+>
+> macOS
+> ```bash
+> brew install re2
+> ```
+
 ## Usage
 
 To the the script, run the following command:
